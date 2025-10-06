@@ -1,18 +1,39 @@
-
-#include<stdio.h>
 #include<stdlib.h>
+#include<stdio.h>
 
 int main() {
-  float num1, num2;
-  
-  printf("Informe um número: ");
-  scanf("%f", &num1);
-  printf("Digite outro número: ");
-  scanf("%f", &num2);
-  if(num1 > 0 && num2 > 0){
-      printf("Valores são válidos!");
-  } else {
-      printf("Valores inválidos!");
-  }
-  return 0;
+    
+    char nome[20];
+    int idade, opcao;
+    
+    printf("=== MENU PRINCIPAL ===");
+    printf("\n1 - Cadastrar usuário");
+    printf("\n2 - Verificar usuário");
+    printf("\n3 - Sair");
+    printf("\n-------|==================>\n");
+    
+    printf("")
+    scanf()
+    
+    switch(opcao){
+        
+    case 1:
+    printf("Digite seu nome: \n");
+    scanf("%s", &nome);
+    printf("\nDigite sua idade:\n");
+    scanf("%i", &idade);
+    break;
+    
+    case 2:
+    printf("Nome registrado: %c", nome);
+    printf("Idade registrada: %i", idade);
+    break;
+    
+    case 3:
+    printf("saindo.....)
+    }
+    
+    
+    
+    printf("\nSeu nome é %s e você tem %i anos! ", nome, idade);
 }
